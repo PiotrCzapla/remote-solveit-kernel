@@ -1,0 +1,19 @@
+[project]
+name = "remote-solveit-kernel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipyk-unlock",
+    "fastcore",
+    "python-fasthtml",
+    "ghapi",
+    "toolslm",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = []
